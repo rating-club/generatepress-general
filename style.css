@@ -1,0 +1,70 @@
+/*
+ Theme Name:   GeneratePress General
+ Theme URI:    https://generatepress.com
+ Description:  Default GeneratePress child theme
+ Author:       Tom Usborne
+ Author URI:   https://tomusborne.com
+ Template:     generatepress
+ Version:      0.1
+*/
+
+/* Widgets */
+.widget-gdssh_networks_profiles .widget-title {
+    text-align: center;
+}
+/* Widgets */
+
+/* Breadcrumbs Styling */
+.gdcub-generatepress-wrapper {
+    background: #FFF;
+}
+/* Breadcrumbs Styling */
+
+/* Thumbs Rating Block */
+.gdrts-rating-block.gdrts-method-thumbs-rating .gdrts-inner-wrapper {
+    text-align: center;
+}
+
+.gdrts-rating-block.gdrts-method-thumbs-rating .gdrts-block-call-to-action {
+    margin: 2em 0 0;
+    padding: .25em 0 .5em;
+    border-top: 1px solid #888;
+    font-size: .9em;
+}
+
+.gdrts-thumbs-theme-compact .gdrts-thumb.gdrts-thumb-up.gdrts-thumb-higher {
+    background: #026802;
+}
+
+.gdrts-thumbs-theme-compact .gdrts-thumb.gdrts-thumb-down.gdrts-thumb-higher {
+    background: #900000;
+}
+
+/* Thumbs Rating Block */
+
+/* Stars Rating Website Rating Layout */
+.gdrts-layout-rating {
+    text-align: center;
+}
+
+.gdrts-layout-rating > div {
+    display: inline-block;
+    vertical-align: top;
+    margin: 0 2%;
+}
+
+.gdrts-layout-rating .gdrts-rating-distribution {
+    min-width: 360px;
+}
+
+/* Stars Rating Website Rating Layout */
+
+/* Emote This Block for the Articles */
+article.type-article .gdrts-rating-block.gdrts-method-emote-this .gdrts-inner-wrapper {
+    margin: 2em 0 0;
+    padding: 1em;
+    background: #F0F0F0;
+    border-radius: 5px;
+}
+
+/* Emote This Block for the Articles */
