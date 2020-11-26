@@ -12,20 +12,23 @@
 .widget-gdssh_networks_profiles .widget-title {
     text-align: center;
 }
+
 /* Widgets */
 
 /* Additional Widgets Styling */
 .gdrts-rating-list ol li.gdrts-rating-item {
     margin-bottom: 15px;
     padding-bottom: 15px;
-    border-bottom: 1px dashed #dedede;
+    border-bottom: 1px dashed #DEDEDE;
 }
+
 /* Additional Widgets Styling */
 
 /* Breadcrumbs Styling */
 .gdcub-generatepress-wrapper {
     background: #FFF;
 }
+
 /* Breadcrumbs Styling */
 
 /* Thumbs Rating Block */
@@ -74,6 +77,7 @@ article.type-news .gdrts-rating-block.gdrts-method-emote-this .gdrts-inner-wrapp
     background: #F0F0F0;
     border-radius: 5px;
 }
+
 /* Emote This Block for the News */
 
 /* Slider Rating Block for the Article */
@@ -89,11 +93,48 @@ article.type-article .gdrts-rating-block.gdrts-method-slider-rating .gdrts-inner
     margin: 0 0 5px;
     font-weight: bold;
 }
+
 /* Slider Rating Block for the Article */
+
+/* Slider Rating Block for the Article Archive Badge */
+.slider-rating-archive {
+    float: right;
+    background-color: #E8E8E8;
+    border-radius: 5px;
+    padding: .5em 1em;
+    margin: .5em 0 0 2em;
+    text-align: center;
+    line-height: 1.5;
+}
+
+.slider-rating-archive span {
+    display: block;
+    font-weight: bold;
+    font-size: 1.5em;
+    line-height: 1;
+}
+
+/* Slider Rating Block for the Article Archive Badge */
+
+/* Stars Rating Block for the Blog Archive */
+.stars-rating-archive {
+    float: right;
+    margin-top: .5em;
+    background-color: #F0F0F0;
+    border-radius: 5px;
+    padding: 1em;
+    font-size: .85em;
+}
+
+.stars-rating-archive .gdrts-rating-block {
+    margin: 0;
+}
+
+/* Stars Rating Block for the Blog Archive */
 
 /* Like This block in the Comments */
 .comment-content .gdrts-method-like-this {
-    border-top: 1px solid #ddd;
+    border-top: 1px solid #DDD;
     padding-top: 10px;
     margin-top: 10px;
 }
@@ -108,4 +149,5 @@ article.type-article .gdrts-rating-block.gdrts-method-slider-rating .gdrts-inner
     line-height: 24px !important;
     vertical-align: text-bottom;
 }
+
 /* Like This block in the Comments */
