@@ -1,5 +1,15 @@
 <?php
 
+/** GeneratePress
+  * Load template for aggregated ratings to display after news post type archive.
+  */
+add_action('generate_after_archive_title', 'gdrts__generate_after_archive_title');
+function gdrts__generate_after_archive_title() {
+	if (is_post_type_archive('news')) {
+		require_once('parts/news-aggregated.php');
+	}
+}
+
 /** GeneratePress:
   * Enable entry meta block for 'news' and 'article' post types.
   */

@@ -14,6 +14,14 @@
 }
 /* Widgets */
 
+/* Additional Widgets Styling */
+.gdrts-rating-list ol li.gdrts-rating-item {
+    margin-bottom: 15px;
+    padding-bottom: 15px;
+    border-bottom: 1px dashed #dedede;
+}
+/* Additional Widgets Styling */
+
 /* Breadcrumbs Styling */
 .gdcub-generatepress-wrapper {
     background: #FFF;
@@ -59,12 +67,45 @@
 
 /* Stars Rating Website Rating Layout */
 
-/* Emote This Block for the Articles */
-article.type-article .gdrts-rating-block.gdrts-method-emote-this .gdrts-inner-wrapper {
+/* Emote This Block for the News */
+article.type-news .gdrts-rating-block.gdrts-method-emote-this .gdrts-inner-wrapper {
     margin: 2em 0 0;
     padding: 1em;
     background: #F0F0F0;
     border-radius: 5px;
 }
+/* Emote This Block for the News */
 
-/* Emote This Block for the Articles */
+/* Slider Rating Block for the Article */
+article.type-article .gdrts-rating-block.gdrts-method-slider-rating .gdrts-inner-wrapper {
+    margin: 2em 0 0;
+    padding: 1em;
+    background: #F8F8F8;
+    border: 4px solid #E8E8E8;
+    border-radius: 5px;
+}
+
+article.type-article .gdrts-rating-block.gdrts-method-slider-rating .gdrts-inner-wrapper .gdrts-block-call-to-action {
+    margin: 0 0 5px;
+    font-weight: bold;
+}
+/* Slider Rating Block for the Article */
+
+/* Like This block in the Comments */
+.comment-content .gdrts-method-like-this {
+    border-top: 1px solid #ddd;
+    padding-top: 10px;
+    margin-top: 10px;
+}
+
+.comment-content .gdrts-method-like-this .gdrts-block-call-to-action {
+    font-size: .9em;
+    margin: 0 0 5px;
+}
+
+.comment-content .gdrts-method-like-this .gdrts-rating-text.gdrts-text-inline {
+    font-size: .8em;
+    line-height: 24px !important;
+    vertical-align: text-bottom;
+}
+/* Like This block in the Comments */
