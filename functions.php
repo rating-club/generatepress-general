@@ -63,3 +63,12 @@ function gdrts__pre_get_posts( $query ) {
 		return $query;
 	}
 }
+
+function gdrts__get_post_attached_images_ids() {
+	global $wpdb;
+
+	$sql   = "SELECT a.ID FROM $wpdb->posts a INNER JOIN $wpdb->posts p ON a.post_parent = p.ID WHERE a.post_type = 'attachment' AND p.post_type = 'post'";
+	$items = $wpdb->get_results( $sql );
+
+	return wp_list_pluck( $items, 'ID' );
+}
