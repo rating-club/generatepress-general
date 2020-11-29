@@ -33,10 +33,20 @@ function gdrts__generate_after_entry_content_stars_block() {
 /** GeneratePress
  * Load template for aggregated ratings to display after news post type archive.
  */
-add_action( 'generate_after_archive_title', 'gdrts__generate_after_archive_title' );
-function gdrts__generate_after_archive_title() {
+add_action( 'generate_after_archive_title', 'gdrts__generate_after_archive_title_news', 20 );
+function gdrts__generate_after_archive_title_news() {
 	if ( is_post_type_archive( 'news' ) ) {
 		require_once( 'parts/news-aggregated.php' );
+	}
+}
+
+/** GeneratePress
+ * Load template for aggregated ratings to display for the blog posts author.
+ */
+add_action( 'generate_after_archive_title', 'gdrts__generate_after_archive_title_author', 20 );
+function gdrts__generate_after_archive_title_author() {
+	if ( is_archive() && is_author() ) {
+		require_once( 'parts/author-aggregated.php' );
 	}
 }
 
