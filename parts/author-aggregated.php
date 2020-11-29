@@ -22,6 +22,6 @@
 
 	?>
     <p>
-        From <?php echo $rating->items; ?> posts and <?php echo $rating->votes; ?> votes.
+        Rating: <strong><?php echo $rating->rating; ?></strong>/5, From <?php echo $rating->items; ?> posts and <?php echo $rating->votes; ?> votes.
     </p>
 </div>
