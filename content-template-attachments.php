@@ -1,9 +1,7 @@
 <?php
 
 /**
- * The template used for displaying page content in page.php
- *
- * @package GeneratePress
+ * The Template for displaying content of the Featured Images template.
  */
 
 if ( ! defined( 'ABSPATH' ) ) {

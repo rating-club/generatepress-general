@@ -1,12 +1,11 @@
 <?php
+
 /**
- * The template for displaying posts within the loop.
- *
- * @package GeneratePress
+ * The Template for displaying single attachment content.
  */
 
 if ( ! defined( 'ABSPATH' ) ) {
-	exit; // Exit if accessed directly.
+	exit;
 }
 ?>
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?> <?php generate_do_microdata( 'article' ); ?>>
@@ -34,6 +33,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 				?>
             </header>
 		<?php
+
 		endif;
 
 		do_action( 'generate_after_entry_header' );

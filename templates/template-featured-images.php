@@ -1,8 +1,7 @@
 <?php
+
 /**
  * Template Name: Featured Images
- *
- * @package GeneratePress
  */
 
 if ( ! defined( 'ABSPATH' ) ) {
